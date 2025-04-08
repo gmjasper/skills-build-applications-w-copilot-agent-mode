@@ -37,6 +37,7 @@ const App = () => {
         </nav>
 
         <Routes>
+          <Route path="/" element={<h1>Welcome to OctoFit!</h1>} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/teams" element={<Teams />} />
