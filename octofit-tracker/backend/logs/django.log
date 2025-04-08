@@ -15741,3 +15741,842 @@ File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/
 File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/db/migrations/recorder.py first seen with mtime 1744142940.4860964
 File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/admin/migrations/0001_initial.py first seen with mtime 1744142939.9660964
 File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/sessions/migrations/__init__.py first seen with mtime 1744142940.4060965
+(0.002) QUERY = 'SELECT "octofit_tracker_workout"."_id", "octofit_tracker_workout"."name", "octofit_tracker_workout"."description" FROM "octofit_tracker_workout"' - PARAMS = (); args=(); alias=default
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+Exception while resolving variable 'autofocus' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [autofocus] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+Exception while resolving variable 'autofocus' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [autofocus] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/textarea.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'textarea.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/textarea.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'textarea.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+Exception while resolving variable 'rows' in template 'rest_framework/horizontal/textarea.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'rows'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'rows'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'rows'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [rows] in {'base_template': 'textarea.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683cb1b4ef0>}
+"GET /api/workouts/ HTTP/1.1" 200 9152
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/messages/context_processors.py first seen with mtime 1744142940.2950964
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/conf/locale/en/__init__.py first seen with mtime 1744142939.8010964
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/conf/locale/en/formats.py first seen with mtime 1744142939.8020964
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/sessions/serializers.py first seen with mtime 1744142940.3680964
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/messages/storage/session.py first seen with mtime 1744142940.2970965
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/context_processors.py first seen with mtime 1744142940.5170963
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/staticfiles/storage.py first seen with mtime 1744142940.4510963
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/auth/context_processors.py first seen with mtime 1744142940.0490963
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/messages/storage/cookie.py first seen with mtime 1744142940.2960963
+File /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/contrib/messages/storage/fallback.py first seen with mtime 1744142940.2970965
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+"GET /api/ HTTP/1.1" 200 5950
+"GET /api/leaderboard HTTP/1.1" 301 0
+(0.002) QUERY = 'SELECT "octofit_tracker_leaderboard"."_id", "octofit_tracker_leaderboard"."user_id", "octofit_tracker_leaderboard"."score" FROM "octofit_tracker_leaderboard"' - PARAMS = (); args=(); alias=default
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'autofocus' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [autofocus] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/fieldset.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'fieldset.html', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'autofocus' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [autofocus] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'autofocus' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [autofocus] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'input.html', 'input_type': 'email', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'input.html', 'input_type': 'email', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'autofocus' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [autofocus] in {'base_template': 'input.html', 'input_type': 'email', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'autofocus' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [autofocus] in {'base_template': 'input.html', 'input_type': 'text', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'hide_label' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hide_label'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [hide_label] in {'base_template': 'input.html', 'input_type': 'number', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'placeholder' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'placeholder'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [placeholder] in {'base_template': 'input.html', 'input_type': 'number', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+Exception while resolving variable 'autofocus' in template 'rest_framework/horizontal/input.html'.
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'autofocus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/lib/python3.12/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [autofocus] in {'base_template': 'input.html', 'input_type': 'number', 'template_pack': 'rest_framework/horizontal', 'renderer': <rest_framework.renderers.HTMLFormRenderer object at 0x7683ca719e20>}
+"GET /api/leaderboard/ HTTP/1.1" 200 10351
