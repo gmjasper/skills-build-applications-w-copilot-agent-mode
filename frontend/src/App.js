@@ -6,7 +6,7 @@ import Leaderboard from './components/Leaderboard';
 import Teams from './components/Teams';
 import Users from './components/Users';
 import Workouts from './components/Workouts';
-import logo from './octofitapp-small.png';
+import logo from '../docs/octofitapp-small.png'; // Updated path to the correct location
 
 const App = () => {
   return (
