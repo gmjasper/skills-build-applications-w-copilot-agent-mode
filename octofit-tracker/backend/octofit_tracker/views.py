@@ -8,7 +8,7 @@ from .models import User, Team, Activity, Leaderboard, Workout
 def api_root(request, format=None):
     base_urls = [
         'http://localhost:8000/',
-        'https://cautious-invention-465rxg76v6x27v5j.app.github.dev/'
+        'https://cautious-invention-8000-465rxg76v6x27v5j.app.github.dev/'
     ]
     return Response({
         'users': [url + 'api/users/' for url in base_urls],

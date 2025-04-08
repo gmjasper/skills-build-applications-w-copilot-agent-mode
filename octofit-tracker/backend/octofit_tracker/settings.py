@@ -6,7 +6,7 @@ SECRET_KEY = 'your-secret-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'cautious-invention-465rxg76v6x27v5j.app.github.dev']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'cautious-invention-465rxg76v6x27v5j-8000.app.github.dev']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
