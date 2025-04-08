@@ -20,11 +20,10 @@
       "name": "Launch React Frontend",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceFolder}/octofit-tracker/frontend/node_modules/react-scripts/scripts/start.js",
-      "cwd": "${workspaceFolder}/octofit-tracker/frontend",
+      "program": "${workspaceFolder}/frontend/node_modules/react-scripts/scripts/start.js",
+      "cwd": "${workspaceFolder}/frontend",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["start"],
-      "port": 3000
+      "runtimeArgs": ["start"]
     }
   ]
 }
