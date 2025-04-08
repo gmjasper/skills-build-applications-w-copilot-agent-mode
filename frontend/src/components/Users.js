@@ -5,7 +5,7 @@ const Users = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch('https://cautious-invention-465rxg76v6x27v5j-8000.app.github.dev/api/users')
+    fetch('https://cautious-invention-465rxg76v6x27v5j-8000.app.github.dev/api/users/')
       .then(response => response.json())
       .then(data => setUsers(data))
       .catch(error => console.error('Error fetching users:', error));

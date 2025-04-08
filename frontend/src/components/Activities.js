@@ -5,7 +5,7 @@ const Activities = () => {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('https://cautious-invention-465rxg76v6x27v5j-8000.app.github.dev/api/activities')
+    fetch('https://cautious-invention-465rxg76v6x27v5j-8000.app.github.dev/api/activities/')
       .then(response => response.json())
       .then(data => setActivities(data))
       .catch(error => console.error('Error fetching activities:', error));

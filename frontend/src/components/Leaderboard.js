@@ -5,7 +5,7 @@ const Leaderboard = () => {
   const [leaders, setLeaders] = useState([]);
 
   useEffect(() => {
-    fetch('https://cautious-invention-465rxg76v6x27v5j-8000.app.github.dev/api/leaderboard')
+    fetch('https://cautious-invention-465rxg76v6x27v5j-8000.app.github.dev/api/leaderboard/')
       .then(response => response.json())
       .then(data => setLeaders(data))
       .catch(error => console.error('Error fetching leaderboard:', error));

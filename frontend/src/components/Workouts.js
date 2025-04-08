@@ -5,7 +5,7 @@ const Workouts = () => {
   const [workouts, setWorkouts] = useState([]);
 
   useEffect(() => {
-    fetch('https://cautious-invention-465rxg76v6x27v5j-8000.app.github.dev/api/workouts')
+    fetch('https://cautious-invention-465rxg76v6x27v5j-8000.app.github.dev/api/workouts/')
       .then(response => response.json())
       .then(data => setWorkouts(data))
       .catch(error => console.error('Error fetching workouts:', error));
